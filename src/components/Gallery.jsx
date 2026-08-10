@@ -11,7 +11,7 @@ const Gallery = ({ t }) => {
   ];
 
   return (
-    <section id="gallery" className="py-24 bg-white">
+    <section id="gallery" className="py-24 bg-cream">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6 w-full mb-12">

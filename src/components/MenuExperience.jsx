@@ -13,7 +13,7 @@ const MenuExperience = ({ t }) => {
   };
 
   return (
-    <section id="menu" className="py-16 md:py-24 bg-white text-charcoal">
+    <section id="menu" className="py-16 md:py-24 bg-cream text-charcoal">
       <div className="max-w-2xl lg:max-w-3xl mx-auto px-5 sm:px-6">
         {/* ── Section header ── */}
         <div className="text-center mb-10 md:mb-14">
