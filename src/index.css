@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Ethiopic:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@theme {
+  --color-cream: #FAF5EF;
+  --color-espresso: #4B2E2E;
+  --color-charcoal: #2D2D2D;
+  --color-gold: #C89F5A;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Playfair Display', serif;
+  --font-eth: 'Noto Sans Ethiopic', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+}
+
+[data-lang='am'] body {
+  font-family: var(--font-eth);
+}
+
+/* Base custom utilities */
+@layer components {
+  .btn-primary {
+    @apply bg-espresso text-cream px-6 py-3 rounded hover:bg-espresso/90 transition-all font-medium;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border border-espresso text-espresso px-6 py-3 rounded hover:bg-espresso hover:text-cream transition-all font-medium;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
