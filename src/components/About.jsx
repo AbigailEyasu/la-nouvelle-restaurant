@@ -4,22 +4,19 @@ const About = ({ t }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           
-          {/* Video Side - Showcasing the Inside */}
+          {/* Image Side */}
           <div className="relative">
             <div className="absolute inset-0 bg-gold/20 transform -translate-x-3 translate-y-3 rounded-2xl"></div>
-            <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl border border-espresso/10 aspect-video lg:aspect-[4/3]">
-              <video 
-                src="/assets/interior.mp4" 
-                className="w-full h-full object-cover"
-                autoPlay 
-                loop 
-                muted 
-                playsInline
-                controls
+            <div className="relative z-10 overflow-hidden rounded-2xl shadow-xl border border-espresso/10">
+              <img 
+                src="/assets/about.webp" 
+                alt="La Nouvelle Elegant Interior Design & Seating" 
+                className="w-full h-[320px] sm:h-[400px] object-cover hover:scale-105 transition-transform duration-700"
+                loading="lazy"
               />
-              <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-4 sm:p-5 text-cream pointer-events-none">
-                <p className="text-xs uppercase tracking-widest text-gold font-semibold mb-0.5">Interior Experience</p>
-                <p className="text-xs sm:text-sm text-cream/90 font-light">Take a virtual tour of our beautiful indoor seating and cozy ambience.</p>
+              <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 text-cream">
+                <p className="text-xs uppercase tracking-widest text-gold font-semibold mb-1">Interior Experience</p>
+                <p className="text-sm text-cream/90 font-light">Warm ambient lighting, premium seating, and a modern aesthetic.</p>
               </div>
             </div>
           </div>
