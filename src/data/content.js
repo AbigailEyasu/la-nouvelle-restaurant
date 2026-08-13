@@ -10,28 +10,28 @@ export const content = {
     },
     hero: {
       eyebrow: 'La Nouvelle Cafe & Restaurant',
-      headline: 'Good Food. Good Moments.',
+      headline: 'A New Taste. Endless Moments.',
       subline:
-        'An inviting place in Bole to enjoy great food, coffee, and time well spent.',
+        'La Nouvelle — bringing a fresh culinary story to Bole with handcrafted dishes, artisanal coffee, and a cozy atmosphere.',
       reserveBtn: 'Reserve a Table',
       menuBtn: 'Explore Menu',
     },
     about: {
-      heading: 'A Place to Gather, Taste & Enjoy',
+      heading: 'A Fresh Experience in the Heart of Bole',
       description:
-        'Located in Bole behind Millennium Hall, next to Ambassador Hotel, La Nouvelle offers a combination of Ethiopian and international dining in a comfortable environment.',
+        'Located in Bole behind Millennium Hall (next to Ambassador Hotel), La Nouvelle ("The New") brings a modern dining concept to Addis Ababa. Step inside to experience our beautifully crafted interior, warm ambient lighting, and welcoming atmosphere.',
       features: [
         {
-          title: 'Ethiopian Flavors',
-          desc: 'Traditional Ethiopian-inspired choices.',
+          title: 'Elegant Interior Design',
+          desc: 'Stylish indoor ambience with cozy seating and warm architectural details.',
         },
         {
-          title: 'International Favorites',
-          desc: 'A varied selection for different tastes.',
+          title: 'Ethiopian & Global Cuisine',
+          desc: 'Carefully curated menu featuring local favorites and international dishes.',
         },
         {
-          title: 'Indoor & Outdoor Seating',
-          desc: 'Comfortable spaces for different occasions.',
+          title: 'Indoor & Garden Spaces',
+          desc: 'Comfortable seating tailored for business lunches, family gatherings, or relaxing coffee breaks.',
         },
       ],
     },
@@ -39,7 +39,6 @@ export const content = {
       heading: 'Our Menu',
       subheading: 'A curated selection from our kitchen',
       note: 'Prices in ETB · VAT included · 5% service charge not included',
-      viewFullMenu: 'View Full Menu',
       pastaNote: 'Choice of penne or spaghetti',
       wrapsNote: 'Served with house salad, crispy potato or fries',
       categories: [
@@ -167,6 +166,7 @@ export const content = {
       instagram: '@la_nouvelle_addis',
     },
     footer: {
+      motto: 'A New Taste. Endless Moments.',
       disclaimer: 'Concept website created as an unsolicited design sample.',
     },
   },
@@ -182,28 +182,28 @@ export const content = {
     },
     hero: {
       eyebrow: 'La Nouvelle',
-      headline: 'ጥሩ ምግብ፣ የሚያምሩ ጊዜያት።',
+      headline: 'አዲስ ጣዕም። የማይረሱ ጊዜያት።',
       subline:
-        'በቦሌ ጥሩ ምግብ፣ ቡና እና ደስ የሚል ጊዜ ለማሳለፍ የሚጋብዝ ቦታ።',
+        'ላ ኑቬል — በቦሌ አዲስ የጣዕም እና የደስታ ተሞክሮን ከተዋበ የውስጥ ድባብ እና ምርጥ ቡና ጋር ያቀርባል።',
       reserveBtn: 'ጠረጴዛ ይያዙ',
       menuBtn: 'ሜኑን ይመልከቱ',
     },
     about: {
-      heading: 'ለመሰብሰብ፣ ለመቅመስ እና ለመደሰት',
+      heading: 'በቦሌ ልብ ውስጥ አዲስ የጣዕም ተሞክሮ',
       description:
-        'ከሚሊኒየም አዳራሽ ጀርባ፣ ከአምባሳደር ሆቴል አጠገብ በቦሌ የሚገኘው ላ ኑቬል፤ የኢትዮጵያ እና የዓለም አቀፍ ምግቦችን በምቾት በተሞላ ድባብ ያቀርባል።',
+        'ከሚሊኒየም አዳራሽ ጀርባ፣ ከአምባሳደር ሆቴል አጠገብ የሚገኘው ላ ኑቬል ("አዲሱ")፤ ውብ የውስጥ ዲዛይን፣ ምቹ መብራቶች እና ደስ የሚል ድባብን ያካተተ አዲስ የመመገቢያ ቦታ ነው።',
       features: [
         {
-          title: 'የኢትዮጵያ ጣዕሞች',
-          desc: 'ባህላዊ የኢትዮጵያ ምግቦች።',
+          title: 'ውብ የውስጥ ዲዛይን',
+          desc: 'ዘመናዊ እና ምቹ የውስጥ መቀመጫዎች ከተዋበ ድባብ ጋር።',
         },
         {
-          title: 'አለም አቀፍ ተወዳጆች',
-          desc: 'ለተለያዩ ጣዕሞች የተዘጋጁ ምርጫዎች።',
+          title: 'የኢትዮጵያ እና የዓለም አቀፍ ምግቦች',
+          desc: 'በጥንቃቄ የተመረጡ የሀገር ውስጥ እና የአለም አቀፍ ጣዕሞች።',
         },
         {
-          title: 'የውስጥ እና የውጭ መቀመጫ',
-          desc: 'ለተለያዩ አጋጣሚዎች ምቹ ቦታዎች።',
+          title: 'ምቹ የውስጥ እና የውጭ ቦታዎች',
+          desc: 'ለስራ ምሳ፣ ለቤተሰብ ስብሰባ ወይም ለቡና እረፍት ተስማሚ።',
         },
       ],
     },
@@ -211,7 +211,6 @@ export const content = {
       heading: 'ሜኑ',
       subheading: 'ከሜኑ የተመረጡ',
       note: 'ዋጋ በኢትዮጵያ ብር · ታክስ ተካትቷል · 5% የአገልግሎት ክፍያ አይካተትም',
-      viewFullMenu: 'ሙሉ ሜኑን ይመልከቱ',
       pastaNote: 'ፔኔ ወይም ስፓጌቲ ይምረጡ',
       wrapsNote: 'ከሰላጣ፣ ክሪስፒ ድንች ወይም ፍራይስ ጋር ይቀርባል',
       categories: [
@@ -339,6 +338,7 @@ export const content = {
       instagram: '@la_nouvelle_addis',
     },
     footer: {
+      motto: 'አዲስ ጣዕም። የማይረሱ ጊዜያት።',
       disclaimer: 'ይህ ድረ-ገጽ እንደ የንድፍ ማሳያ በናሙናነት የተዘጋጀ ነው።',
     },
   },

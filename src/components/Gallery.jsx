@@ -11,15 +11,15 @@ const Gallery = ({ t }) => {
   ];
 
   return (
-    <section id="gallery" className="py-24 bg-cream">
+    <section id="gallery" className="py-10 md:py-16 bg-cream">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6 w-full mb-12">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-5 space-y-5 w-full mb-8">
           {images.map((src, index) => (
-            <div key={index} className="break-inside-avoid overflow-hidden rounded-sm group relative cursor-pointer shadow-sm hover:shadow-lg transition-all duration-300">
+            <div key={index} className="break-inside-avoid overflow-hidden rounded-lg group relative cursor-pointer shadow-sm hover:shadow-lg transition-all duration-300">
               <img 
                 src={src} 
-                alt={`La Nouvelle Gallery ${index + 1}`} 
+                alt={`La Nouvelle Atmosphere & Dishes ${index + 1}`} 
                 className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />
@@ -36,7 +36,7 @@ const Gallery = ({ t }) => {
           href="https://www.instagram.com/la_nouvelle_addis" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="btn-secondary flex items-center space-x-2"
+          className="btn-secondary flex items-center space-x-2 text-sm"
         >
           <span>{t.gallery.followBtn}</span>
         </a>
