@@ -10,9 +10,9 @@ export const content = {
     },
     hero: {
       eyebrow: 'La Nouvelle Cafe & Restaurant',
-      headline: 'A New Chapter in Taste.',
+      headline: 'The New Destination for Fine Food & Coffee.',
       subline:
-        'La Nouvelle — bringing a fresh culinary story to Bole with handcrafted dishes, artisanal coffee, and a cozy atmosphere.',
+        'La Nouvelle — the new destination in Bole for handcrafted food, artisanal coffee, and time well spent.',
       reserveBtn: 'Reserve a Table',
       menuBtn: 'Explore Menu',
     },
@@ -166,7 +166,7 @@ export const content = {
       instagram: '@la_nouvelle_addis',
     },
     footer: {
-      motto: 'A New Chapter in Taste.',
+      motto: 'The New Destination for Fine Food & Coffee.',
       disclaimer: 'Concept website created as an unsolicited design sample.',
     },
   },
@@ -182,9 +182,9 @@ export const content = {
     },
     hero: {
       eyebrow: 'La Nouvelle',
-      headline: 'አዲስ የጣዕም ምዕራፍ።',
+      headline: 'የምርጥ ምግብ እና ቡና፣ አዲሱ መዳረሻ።',
       subline:
-        'ላ ኑቬል — በቦሌ አዲስ የጣዕም እና የደስታ ተሞክሮን ከተዋበ የውስጥ ድባብ እና ምርጥ ቡና ጋር ያቀርባል።',
+        'ላ ኑቬል — በቦሌ ምርጥ ምግብ፣ ቡና እና ደስ የሚል ጊዜ ለማሳለፍ አዲሱ መዳረሻዎ።',
       reserveBtn: 'ጠረጴዛ ይያዙ',
       menuBtn: 'ሜኑን ይመልከቱ',
     },
@@ -338,7 +338,7 @@ export const content = {
       instagram: '@la_nouvelle_addis',
     },
     footer: {
-      motto: 'አዲስ የጣዕም ምዕራፍ።',
+      motto: 'የምርጥ ምግብ እና ቡና፣ አዲሱ መዳረሻ።',
       disclaimer: 'ይህ ድረ-ገጽ እንደ የንድፍ ማሳያ በናሙናነት የተዘጋጀ ነው።',
     },
   },
